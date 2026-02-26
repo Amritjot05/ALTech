@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work | ALTECH Studios</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+
+<body>
+
+<div class="loader">
+  <div class="logo-loader">ALTECH Studios</div>
+</div>
+
+<header>
+  <div class="logo">
+    <div class="logo-box">AL</div>
+    <div><span>ALT</span>ech</div>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html">Work</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">Who We Are</a></li>
+      <li><a href="contact.html">Hire Us</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Selected Projects</h1>
+  <p>A curated portfolio of architectural visualization and design solutions.</p>
+</section>
+
+<!-- DASHBOARD / SECTION SHORTCUTS -->
+<div class="work-dashboard">
+  <button onclick="document.getElementById('work-exterior').scrollIntoView({behavior:'smooth'})">
+    Exterior
+  </button>
+  <button onclick="document.getElementById('work-interior').scrollIntoView({behavior:'smooth'})">
+    Interior
+  </button>
+  <button onclick="document.getElementById('work-360').scrollIntoView({behavior:'smooth'})">
+    360° Views
+  </button>
+</div>
+
+<!-- ================= PORTFOLIO ================= -->
+
+<section class="portfolio">
+
+  <!-- EXTERIOR -->
+  <section id="work-exterior" class="work-category reveal">
+    <h2 class="section-title">Exterior Visualizations</h2>
+
+    <div class="featured-project project" data-category="exterior" onclick="openPreview(this)">
+      <img src="images/exterior-1.jpg" alt="Exterior project 1">
+      <div class="featured-overlay">
+        <h3>Luxury Residential Tower</h3>
+      </div>
+    </div>
+
+    <div class="secondary-grid">
+      <div class="project-card project" data-category="exterior" onclick="openPreview(this)">
+        <img src="images/exterior-2.jpg" alt="Exterior project 2">
+      </div>
+
+      <div class="project-card project" data-category="exterior" onclick="openPreview(this)">
+        <img src="images/exterior-3.jpg" alt="Exterior project 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERIOR -->
+  <section id="work-interior" class="work-category reveal">
+    <h2 class="section-title">Interior Spaces</h2>
+
+    <div class="interior-grid">
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-1.jpg" alt="Interior project 1">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-2.jpg" alt="Interior project 2">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-3.jpg" alt="Interior project 3">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-4.jpg" alt="Interior project 4">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-5.jpg" alt="Interior project 5">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-6.jpg" alt="Interior project 6">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-7.jpg" alt="Interior project 7">
+      </div>
+
+      <div class="project-card project" data-category="interior" onclick="openPreview(this)">
+        <img src="images/interior-8.jpg" alt="Interior project 8">
+      </div>
+    </div>
+  </section>
+
+  <!-- 360 -->
+  <section id="work-360" class="work-category reveal">
+    <h2 class="section-title">360° Interactive Rooms</h2>
+
+    <div class="interactive-grid">
+      <div class="interactive-card">
+        <img src="images/ground_floor_360.jpg" alt="Ground floor 360 view">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/collection/7Hrl9?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Ground Floor</a>
+        </div>
+      </div>
+
+      <div class="interactive-card">
+        <img src="images/guest_room_01.jpg" alt="Guest room 01">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/LN7YN?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 01</a>
+        </div>
+      </div>
+
+      <div class="interactive-card">
+        <img src="images/guest_room_02.jpg" alt="Guest room 02">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/L7zmf?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 02</a>
+        </div>
+      </div>
+
+      <div class="interactive-card">
+        <img src="images/guest_room_03.jpg" alt="Guest room 03">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/L7V3C?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 03</a>
+        </div>
+      </div>
+
+      <div class="interactive-card">
+        <img src="images/guest_room_04.jpg" alt="Guest room 04">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/LNXK2?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 04</a>
+        </div>
+      </div>
+
+      <div class="interactive-card">
+        <img src="images/guest_room_05.jpg" alt="Guest room 05">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/LNXZv?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 05</a>
+        </div>
+      </div>
+
+      <div class="interactive-card">
+        <img src="images/living_area_360.jpg" alt="Living area 360 view">
+        <div class="interactive-overlay">
+          <a href="https://kuula.co/share/LNP2J?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Living Area</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</section>
+
+
+<!-- IMAGE PREVIEW MODAL -->
+<div class="image-preview" id="imagePreview">
+<div class="preview-content">
+<span class="close-preview" onclick="closePreview()">×</span>
+<img id="previewImg" src="">
+</div>
+</div>
+
+
+<footer>
+<div class="footer-grid">
+
+<div>
+<div class="footer-logo">
+<div class="footer-logo-box">AL</div>
+<div class="footer-logo-text"><span>ALT</span>ech</div>
+</div>
+<p>Creative architectural visualization studio delivering precision-driven design solutions.</p>
+</div>
+
+<div class="footer-links">
+<h4>Quick Links</h4>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="work.html">Work</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="about.html">Who We Are</a></li>
+<li><a href="contact.html">Hire Us</a></li>
+</ul>
+</div>
+
+<div class="footer-links">
+<h4>Contact</h4>
+<ul>
+<li>Email: info@altechstudio.com</li>
+<li>Phone: Available upon request</li>
+<li>Location: India</li>
+</ul>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 ALTECH Studios. All rights reserved.
+</div>
+</footer>
+
+</body>
+</html>
