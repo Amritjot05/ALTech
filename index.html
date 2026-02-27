@@ -4,6 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ALTECH Studios | Architectural 3D</title>
+  <script>
+    (function () {
+      var path = window.location.pathname || "";
+      var isEntryPath = path === "/" || /\/index\.html$/i.test(path);
+      if (!isEntryPath) return;
+
+      var params = new URLSearchParams(window.location.search);
+      if (params.get("view") === "desktop") return;
+
+      var ua = navigator.userAgent || "";
+      var mobileUA = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+      var smallScreen = window.matchMedia && window.matchMedia("(max-width: 768px)").matches;
+      if (!(mobileUA || smallScreen)) return;
+
+      var target = new URL("mobile/index.html", window.location.href);
+      target.search = window.location.search;
+      target.hash = window.location.hash;
+      window.location.replace(target.href);
+    })();
+  </script>
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
