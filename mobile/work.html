@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTECH Studios Mobile | Work</title>
+  <link rel="stylesheet" href="mobile.css">
+  <script defer src="mobile.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">AL</span>
+      <span class="brand-text">ALTECH</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+      <span class="menu-icon"></span>
+    </button>
+  </header>
+
+  <nav class="nav-panel" data-nav-panel>
+    <ul class="nav-list">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="work.html" class="current">Work</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">Who We Are</a></li>
+      <li><a href="contact.html">Hire Us</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <section class="page-hero reveal">
+      <h1 class="section-title">Selected Projects</h1>
+      <p class="muted">A curated portfolio of architectural visualization and design solutions.</p>
+      <div class="work-dashboard">
+        <button class="dashboard-btn" type="button" onclick="document.getElementById('work-exterior').scrollIntoView({behavior:'smooth'});this.blur();">Exterior</button>
+        <button class="dashboard-btn" type="button" onclick="document.getElementById('work-interior').scrollIntoView({behavior:'smooth'});this.blur();">Interior</button>
+        <button class="dashboard-btn" type="button" onclick="document.getElementById('work-360').scrollIntoView({behavior:'smooth'});this.blur();">360 Views</button>
+      </div>
+    </section>
+
+    <section id="work-exterior" class="section reveal">
+      <h2 class="section-title">Exterior Visualizations</h2>
+      <div class="work-grid">
+        <article class="featured-project" data-preview-src="../images/exterior-1.jpg" data-preview-alt="Luxury Residential Tower">
+          <img src="../images/exterior-1.jpg" alt="Luxury residential tower">
+          <div class="featured-overlay"><h3>Luxury Residential Tower</h3></div>
+        </article>
+        <article class="project-card" data-preview-src="../images/exterior-2.jpg" data-preview-alt="Exterior project 2">
+          <img src="../images/exterior-2.jpg" alt="Exterior visualization project 2">
+        </article>
+        <article class="project-card" data-preview-src="../images/exterior-3.jpg" data-preview-alt="Exterior project 3">
+          <img src="../images/exterior-3.jpg" alt="Exterior visualization project 3">
+        </article>
+      </div>
+    </section>
+
+    <section id="work-interior" class="section reveal">
+      <h2 class="section-title">Interior Spaces</h2>
+      <div class="work-grid">
+        <article class="project-card" data-preview-src="../images/interior-1.jpg" data-preview-alt="Interior project 1"><img src="../images/interior-1.jpg" alt="Interior project 1"></article>
+        <article class="project-card" data-preview-src="../images/interior-2.jpg" data-preview-alt="Interior project 2"><img src="../images/interior-2.jpg" alt="Interior project 2"></article>
+        <article class="project-card" data-preview-src="../images/interior-3.jpg" data-preview-alt="Interior project 3"><img src="../images/interior-3.jpg" alt="Interior project 3"></article>
+        <article class="project-card" data-preview-src="../images/interior-4.jpg" data-preview-alt="Interior project 4"><img src="../images/interior-4.jpg" alt="Interior project 4"></article>
+        <article class="project-card" data-preview-src="../images/interior-5.jpg" data-preview-alt="Interior project 5"><img src="../images/interior-5.jpg" alt="Interior project 5"></article>
+        <article class="project-card" data-preview-src="../images/interior-6.jpg" data-preview-alt="Interior project 6"><img src="../images/interior-6.jpg" alt="Interior project 6"></article>
+        <article class="project-card" data-preview-src="../images/interior-7.jpg" data-preview-alt="Interior project 7"><img src="../images/interior-7.jpg" alt="Interior project 7"></article>
+        <article class="project-card" data-preview-src="../images/interior-8.jpg" data-preview-alt="Interior project 8"><img src="../images/interior-8.jpg" alt="Interior project 8"></article>
+      </div>
+    </section>
+
+    <section id="work-360" class="section reveal">
+      <h2 class="section-title">360° Interactive Rooms</h2>
+      <div class="work-grid">
+        <article class="interactive-card">
+          <img src="../images/guest_room_01.jpg" alt="Ground floor 360 view">
+          <div class="interactive-overlay">
+            <a class="overlay-link" href="https://kuula.co/share/collection/7Hrl9?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Ground Floor</a>
+          </div>
+        </article>
+        <article class="interactive-card">
+          <img src="../images/guest_room_02.jpg" alt="Guest room 01">
+          <div class="interactive-overlay">
+            <a class="overlay-link" href="https://kuula.co/share/LN7YN?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 01</a>
+          </div>
+        </article>
+        <article class="interactive-card">
+          <img src="../images/guest_room_03.jpg" alt="Guest room 02">
+          <div class="interactive-overlay">
+            <a class="overlay-link" href="https://kuula.co/share/L7zmf?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 02</a>
+          </div>
+        </article>
+        <article class="interactive-card">
+          <img src="../images/guest_room_04.jpg" alt="Guest room 03">
+          <div class="interactive-overlay">
+            <a class="overlay-link" href="https://kuula.co/share/L7V3C?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 03</a>
+          </div>
+        </article>
+        <article class="interactive-card">
+          <img src="../images/guest_room_05.jpg" alt="Guest room 04">
+          <div class="interactive-overlay">
+            <a class="overlay-link" href="https://kuula.co/share/LNXK2?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 04</a>
+          </div>
+        </article>
+        <article class="interactive-card">
+          <img src="../images/interior-1.jpg" alt="Living area 360 view">
+          <div class="interactive-overlay">
+            <a class="overlay-link" href="https://kuula.co/share/LNP2J?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Living Area</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <div class="image-preview" id="imagePreview" aria-hidden="true">
+    <div class="preview-content">
+      <button class="close-preview" type="button" aria-label="Close preview" data-preview-close>×</button>
+      <img id="previewImg" src="" alt="Project preview">
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <span class="brand-mark">AL</span>
+          <span class="brand-text">ALTECH</span>
+        </a>
+        <p class="muted" style="margin-top:12px;">Creative architectural visualization studio delivering precision-driven design solutions.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">Who We Are</a></li>
+          <li><a href="contact.html">Hire Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li>info@altechstudio.com</li>
+          <li>Phone available on request</li>
+          <li>Location: India</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2026 ALTECH Studios. All rights reserved.</p>
+  </footer>
+</body>
+</html>
