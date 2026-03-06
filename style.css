@@ -50,6 +50,30 @@ pointer-events:none;
 z-index:0;
 }
 
+.loader{
+position:fixed;
+inset:0;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#171818;
+z-index:2500;
+transition:opacity 0.45s ease, visibility 0.45s ease;
+}
+
+.loader.hide{
+opacity:0;
+visibility:hidden;
+}
+
+.loader-logo,
+.logo-loader{
+font-family:'Cinzel',serif;
+font-size:28px;
+letter-spacing:3px;
+color:var(--gold);
+}
+
 /* ================= HEADER ================= */
 
 header{
@@ -69,38 +93,38 @@ transition:0.4s ease;
 .logo{
 display:flex;
 align-items:center;
-gap:16px;
-font-family:'Cinzel',serif;
+gap:14px;
+text-decoration:none;
 color:var(--gold);
-letter-spacing:4px;
-font-size:20px;
-font-weight:600;
 }
 
-.logo-box{
+.logo-mark-wrap{
 width:52px;
 height:52px;
-border:2px solid var(--gold);
 display:flex;
 align-items:center;
 justify-content:center;
-font-weight:700;
-font-size:18px;
-position:relative;
-transition:0.4s ease;
+border:1px solid rgba(243,175,17,0.35);
+background:rgba(0,0,0,0.2);
 }
 
-.logo-box::after{
-content:'';
-position:absolute;
-width:75%;
-height:75%;
-border:1px solid var(--gold);
-opacity:0.25;
+.logo-mark{
+width:42px;
+height:42px;
+display:block;
 }
 
-.logo:hover .logo-box{
-transform:rotate(4deg) scale(1.06);
+.logo-wordmark{
+height:44px;
+width:auto;
+display:block;
+filter:drop-shadow(0 0 14px rgba(0,0,0,0.35));
+transition:transform 0.3s ease, filter 0.3s ease;
+}
+
+.logo:hover .logo-wordmark{
+transform:translateY(-1px);
+filter:drop-shadow(0 0 16px rgba(243,175,17,0.2));
 }
 
 nav ul{
@@ -726,6 +750,26 @@ grid-template-columns:2fr 1fr 1fr;
 gap:60px;
 }
 
+.footer-brand{
+display:inline-flex;
+align-items:center;
+gap:12px;
+text-decoration:none;
+margin-bottom:14px;
+}
+
+.footer-brand-mark{
+width:42px;
+height:42px;
+display:block;
+}
+
+.footer-brand-wordmark{
+width:auto;
+height:36px;
+display:block;
+}
+
 .footer-links h4{
 color:var(--gold);
 margin-bottom:18px;
@@ -758,6 +802,7 @@ font-size:13px;
 .page-hero h1{font-size:34px;}
 .contact-wrapper{grid-template-columns:1fr;}
 .footer-grid{grid-template-columns:1fr;}
+.logo-wordmark{height:34px;}
 }
 
 /* ================= WORK DASHBOARD ================= */

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Buildspace Studio mark</title>
+  <desc id="desc">Abstract BS monogram split between navy and gold.</desc>
+  <rect width="256" height="256" fill="#e8e7e4"/>
+  <path d="M0 0h128v256H0z" fill="#313d66"/>
+  <path d="M128 0h128v256H128z" fill="#b79a5f"/>
+  <path d="M86 20h84v40H86zM86 196h84v40H86z" fill="#e8e7e4"/>
+  <path d="M92 76h52c18 0 32 14 32 32s-14 32-32 32h-18v24h-34V76zm34 32v8h15c4 0 7-3 7-8s-3-8-7-8h-15z" fill="#313d66"/>
+  <path d="M94 164h69l-69 92z" fill="#b79a5f"/>
+  <path d="M162 164h-20l-48 92h20z" fill="#313d66"/>
+</svg>

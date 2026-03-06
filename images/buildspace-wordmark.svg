@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Buildspace Studio wordmark</title>
+  <desc id="desc">Buildspace Studio wordmark with navy and gold typography.</desc>
+  <rect width="1200" height="260" fill="none"/>
+  <g transform="translate(10 10)">
+    <rect x="0" y="0" width="180" height="180" fill="#e8e7e4"/>
+    <path d="M0 0h90v180H0z" fill="#313d66"/>
+    <path d="M90 0h90v180H90z" fill="#b79a5f"/>
+    <path d="M62 14h56v24H62zM62 142h56v24H62z" fill="#e8e7e4"/>
+    <path d="M64 48h34c11 0 20 9 20 20s-9 20-20 20H86v15H64V48zm22 20v5h11c3 0 5-2 5-5s-2-5-5-5H86z" fill="#313d66"/>
+    <path d="M64 105h48l-48 65z" fill="#b79a5f"/>
+    <path d="M112 105H98l-34 65h14z" fill="#313d66"/>
+  </g>
+  <text x="220" y="120" font-size="98" font-family="Cinzel, 'Times New Roman', serif" letter-spacing="2" fill="#313d66">BUILD</text>
+  <text x="585" y="120" font-size="98" font-family="Cinzel, 'Times New Roman', serif" letter-spacing="2" fill="#b79a5f">SPACE</text>
+  <text x="520" y="206" font-size="78" font-family="Cinzel, 'Times New Roman', serif" letter-spacing="3" fill="#313d66">STUDIO</text>
+</svg>

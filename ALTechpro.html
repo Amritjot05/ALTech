@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ALTECH Studios | Architectural Visualization</title>
+<title>BUILDSPACE STUDIO | Architectural Visualization</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -44,10 +44,22 @@ border-bottom:1px solid rgba(212,175,55,0.15);
 }
 
 .logo{
-font-weight:700;
-font-size:20px;
-letter-spacing:2px;
+display:flex;
+align-items:center;
+gap:12px;
+text-decoration:none;
 color:var(--gold);
+}
+
+.logo-mark{
+width:34px;
+height:34px;
+border:1px solid rgba(212,175,55,0.3);
+}
+
+.logo-wordmark{
+height:30px;
+width:auto;
 }
 
 nav ul{
@@ -255,7 +267,10 @@ nav ul{gap:20px;}
 <body>
 
 <header>
-<div class="logo">ALTECH Studios</div>
+<a class="logo" href="index.html" aria-label="Buildspace Studio Home">
+<img class="logo-mark" src="images/buildspace-mark.svg" alt="Buildspace Studio logo mark">
+<img class="logo-wordmark" src="images/buildspace-wordmark.svg" alt="Buildspace Studio">
+</a>
 <nav>
 <ul>
 <li><a href="#about">About</a></li>
@@ -278,7 +293,7 @@ nav ul{gap:20px;}
 <section id="about">
 <h2 class="section-title">Who We Are</h2>
 <p style="max-width:700px;color:var(--gray);line-height:1.7;">
-ALTECH Studios is a newly established architectural visualization studio formed by experienced professionals from architecture and design backgrounds. We combine technical precision with creative execution to deliver accurate and impactful results.
+BUILDSPACE STUDIO is a newly established architectural visualization studio formed by experienced professionals from architecture and design backgrounds. We combine technical precision with creative execution to deliver accurate and impactful results.
 </p>
 </section>
 
@@ -321,7 +336,7 @@ ALTECH Studios is a newly established architectural visualization studio formed 
 </section>
 
 <footer>
-© 2026 ALTECH Studios. All rights reserved.
+&copy; 2026 BUILDSPACE STUDIO. All rights reserved.
 </footer>
 
 </body>

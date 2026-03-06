@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Work | ALTECH Studios</title>
+<title>Work | BUILDSPACE STUDIO</title>
 <link rel="stylesheet" href="style.css">
 <script defer src="script.js"></script>
 </head>
@@ -11,14 +11,14 @@
 <body>
 
 <div class="loader">
-  <div class="logo-loader">ALTECH Studios</div>
+  <div class="logo-loader">BUILDSPACE STUDIO</div>
 </div>
 
 <header>
-  <div class="logo">
-    <div class="logo-box">AL</div>
-    <div><span>ALT</span>ech</div>
-  </div>
+  <a class="logo" href="index.html" aria-label="Buildspace Studio Home">
+<div class="logo-mark-wrap"><img class="logo-mark" src="images/buildspace-mark.svg" alt="Buildspace Studio logo mark"></div>
+<img class="logo-wordmark" src="images/buildspace-wordmark.svg" alt="Buildspace Studio">
+</a>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -44,7 +44,7 @@
     Interior
   </button>
   <button onclick="document.getElementById('work-360').scrollIntoView({behavior:'smooth'})">
-    360° Views
+    360-degree Views
   </button>
 </div>
 
@@ -115,55 +115,55 @@
 
   <!-- 360 -->
   <section id="work-360" class="work-category reveal">
-    <h2 class="section-title">360° Interactive Rooms</h2>
+    <h2 class="section-title">360-degree Interactive Rooms</h2>
 
     <div class="interactive-grid">
       <div class="interactive-card">
-        <img src="images/ground_floor_360.jpg" alt="Ground floor 360 view">
+        <img src="images/guest_room_01.jpg" alt="Ground floor 360 view">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/collection/7Hrl9?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Ground Floor</a>
+          <a href="https://kuula.co/share/collection/7Hrl9?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Ground Floor</a>
         </div>
       </div>
 
       <div class="interactive-card">
         <img src="images/guest_room_01.jpg" alt="Guest room 01">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/LN7YN?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 01</a>
+          <a href="https://kuula.co/share/LN7YN?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 01</a>
         </div>
       </div>
 
       <div class="interactive-card">
         <img src="images/guest_room_02.jpg" alt="Guest room 02">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/L7zmf?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 02</a>
+          <a href="https://kuula.co/share/L7zmf?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 02</a>
         </div>
       </div>
 
       <div class="interactive-card">
         <img src="images/guest_room_03.jpg" alt="Guest room 03">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/L7V3C?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 03</a>
+          <a href="https://kuula.co/share/L7V3C?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 03</a>
         </div>
       </div>
 
       <div class="interactive-card">
         <img src="images/guest_room_04.jpg" alt="Guest room 04">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/LNXK2?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 04</a>
+          <a href="https://kuula.co/share/LNXK2?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 04</a>
         </div>
       </div>
 
       <div class="interactive-card">
         <img src="images/guest_room_05.jpg" alt="Guest room 05">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/LNXZv?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Guest Room 05</a>
+          <a href="https://kuula.co/share/LNXZv?logo=0&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Guest Room 05</a>
         </div>
       </div>
 
       <div class="interactive-card">
-        <img src="images/living_area_360.jpg" alt="Living area 360 view">
+        <img src="images/interior-1.jpg" alt="Living area 360 view">
         <div class="interactive-overlay">
-          <a href="https://kuula.co/share/LNP2J?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank">Living Area</a>
+          <a href="https://kuula.co/share/LNP2J?logo=1&info=1&fs=1&vr=0&sd=1&thumbs=1" target="_blank" rel="noopener noreferrer">Living Area</a>
         </div>
       </div>
     </div>
@@ -175,7 +175,7 @@
 <!-- IMAGE PREVIEW MODAL -->
 <div class="image-preview" id="imagePreview">
 <div class="preview-content">
-<span class="close-preview" onclick="closePreview()">×</span>
+<span class="close-preview" onclick="closePreview()">&times;</span>
 <img id="previewImg" src="">
 </div>
 </div>
@@ -185,10 +185,10 @@
 <div class="footer-grid">
 
 <div>
-<div class="footer-logo">
-<div class="footer-logo-box">AL</div>
-<div class="footer-logo-text"><span>ALT</span>ech</div>
-</div>
+<a class="footer-brand" href="index.html" aria-label="Buildspace Studio Home">
+<img class="footer-brand-mark" src="images/buildspace-mark.svg" alt="Buildspace Studio logo mark">
+<img class="footer-brand-wordmark" src="images/buildspace-wordmark.svg" alt="Buildspace Studio">
+</a>
 <p>Creative architectural visualization studio delivering precision-driven design solutions.</p>
 </div>
 
@@ -206,7 +206,7 @@
 <div class="footer-links">
 <h4>Contact</h4>
 <ul>
-<li>Email: info@altechstudio.com</li>
+<li>Email: info@buildspacestudio.com</li>
 <li>Phone: Available upon request</li>
 <li>Location: India</li>
 </ul>
@@ -215,7 +215,7 @@
 </div>
 
 <div class="footer-bottom">
-© 2026 ALTECH Studios. All rights reserved.
+&copy; 2026 BUILDSPACE STUDIO. All rights reserved.
 </div>
 </footer>
 

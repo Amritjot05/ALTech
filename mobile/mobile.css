@@ -79,22 +79,18 @@ video {
   text-decoration: none;
 }
 
-.brand-mark {
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
-  border: 1px solid var(--gold);
-  color: var(--gold);
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 1px;
+.brand-mark-img {
+  width: 36px;
+  height: 36px;
+  display: block;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .brand-text {
   font-family: 'Cinzel', serif;
-  letter-spacing: 2px;
-  font-size: 16px;
+  letter-spacing: 1.5px;
+  font-size: 13px;
   color: var(--gold);
 }
 
