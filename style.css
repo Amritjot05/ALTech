@@ -801,6 +801,10 @@ font-size:13px;
 .page-hero h1{font-size:34px;}
 .contact-wrapper{grid-template-columns:1fr;}
 .footer-grid{grid-template-columns:1fr;}
+.logo{gap:10px;letter-spacing:1px;}
+.logo-box{width:42px;height:42px;}
+.logo-box-img{width:24px;height:24px;}
+.logo-text{font-size:12px;letter-spacing:1px;}
 }
 
 /* ================= WORK DASHBOARD ================= */
