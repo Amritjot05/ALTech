@@ -10,6 +10,7 @@
 --text-muted:#8c8c8c;
 --white:#ffffff;
 --line:rgba(243,175,17,0.15);
+--beige:#d9c08a;
 }
 
 /* ================= RESET ================= */
@@ -79,9 +80,11 @@ text-decoration:none;
 }
 
 .logo-box{
-width:52px;
-height:52px;
-border:2px solid var(--gold);
+	width:64px;
+	height:64px;
+	border-radius:16px;
+	background:rgba(217,192,138,0.18);
+	border:2px solid rgba(217,192,138,0.55);
 display:flex;
 align-items:center;
 justify-content:center;
@@ -92,8 +95,8 @@ transition:0.4s ease;
 }
 
 .logo-box-img{
-width:30px;
-height:30px;
+	width:36px;
+	height:36px;
 display:block;
 position:relative;
 z-index:2;
@@ -109,8 +112,8 @@ content:'';
 position:absolute;
 width:75%;
 height:75%;
-border:1px solid var(--gold);
-opacity:0.25;
+	border:1px solid rgba(217,192,138,0.55);
+	opacity:0.35;
 }
 
 .logo:hover .logo-box{
@@ -748,17 +751,19 @@ margin-bottom:14px;
 }
 
 .footer-logo-box{
-width:46px;
-height:46px;
+	width:60px;
+	height:60px;
+	border-radius:16px;
 display:flex;
 align-items:center;
 justify-content:center;
-border:1px solid rgba(243,175,17,0.35);
+	background:rgba(217,192,138,0.15);
+	border:1px solid rgba(217,192,138,0.45);
 }
 
 .footer-logo-box-img{
-width:28px;
-height:28px;
+	width:32px;
+	height:32px;
 display:block;
 }
 
@@ -802,8 +807,8 @@ font-size:13px;
 .contact-wrapper{grid-template-columns:1fr;}
 .footer-grid{grid-template-columns:1fr;}
 .logo{gap:10px;letter-spacing:1px;}
-.logo-box{width:42px;height:42px;}
-.logo-box-img{width:24px;height:24px;}
+	.logo-box{width:52px;height:52px;}
+	.logo-box-img{width:30px;height:30px;}
 .logo-text{font-size:12px;letter-spacing:1px;}
 }
 
